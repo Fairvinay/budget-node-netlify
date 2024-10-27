@@ -1,6 +1,6 @@
 # Budget application
 
-This is the final project in the training program [Web Security Academy](https://websecurity-academy.com/?utm_source=github&utm_medium=referral&utm_campaign=budget-node-readme). It represents a real-life use case of personal money tracker. There are five main feature modules: *Auth*, *Dashboard*, *Expenses*, *Settings* and *Admin* with many security measures implemented described below. The project implements [role-based access control](https://en.wikipedia.org/wiki/Role-based_access_control) (RBAC), giving different users different permissions. This is the backend part to the accompanying [frontend](https://github.com/bartosz-io/budget-angular) in Angular.
+This is the final project in the training program . It represents a real-life use case of personal money tracker. There are five main feature modules: *Auth*, *Dashboard*, *Expenses*, *Settings* and *Admin* with many security measures implemented described below. The project implements [role-based access control]  (RBAC), giving different users different permissions. This is the backend part to the accompanying [frontend](https://github.com/Fairvinay/gcp-angular.git) in Angular.
 
 
 npm run start:ci
@@ -13,7 +13,7 @@ netstat -ano | findstr /ic:"10460"
 
 This allows you to login using a Gmail Account , which is 
 already hard coded in the 
-G:\jee-neonvinay\eclipseox\workspace\budget-node\src\app\auth\repositories\in-memory
+ app\auth\repositories\in-memory
 
 in-memory-user.repository.ts  FILE 
 
@@ -25,37 +25,6 @@ But after loggout you cannot login with the new User signed in
 It will still take the user already logged in 
 So you need to stop the node server 
 
-gcloud app browse
-gcloud app logs tail -s default
-
-gcloud app deploy --project=meta-falcon-407301
-gcloud auth list
-gcloud config list
-gcloud info
-gcloud help compute instances create
-
- 1  bash .checkNgnix.sh
-    2  bash ./checkNgnix.sh
-    3  systemctl is-active nginx
-    4  sudo service nginx restart
-    5  systemctl is-active nginx
-    6  exit
-
-gsutil rsync -r gs://asia.artifacts.budget-client-407513.appspot.com/budget-node ./meta-falcon-n-gcp
-
-gsutil rsync -r gs://asia.artifacts.budget-client-407513.appspot.com/ ./meta-falcon-n-gcp
-
-
-gcloud app logs tail -s budget-client-407513
-
-curl -0 -X POST https://172.17.0.1:8080/api/auth/login -H "Content-Type:application/json" -data '{ "email":"john@app.com", "password":"123" }'
-
-curl -0 -X POST https://meta-falcon-407301.el.r.appspot.com/api/auth/login -H "Content-Type:application/json" -data '{ "email":"john@app.com", "password":"123" }'
-
-curl -0 -X POST https://34.93.233.129/api/auth/login -H "Content-Type:application/json" -data '{ "email":"john@app.com", "password":"123" }'
-
-
-sudo netstat -tulpn | grep LISTEN
 
  [https://budget-node-dot-budget-client-407513.el.r.appspot.com]
 
