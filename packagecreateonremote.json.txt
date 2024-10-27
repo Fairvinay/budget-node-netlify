@@ -1,0 +1,15 @@
+{
+  "name": "budget-node",
+  "version": "1.0.0",
+  "description": "node backend for gauth",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vinayak",
+    "A"
+  ],
+  "author": "Vinayak A",
+  "license": "ISC"
+}

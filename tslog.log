@@ -1,0 +1,226 @@
+
+> budget-server@1.0.0 prestart
+> npm run build
+
+
+> budget-server@1.0.0 prebuild
+> tslint -c tslint.json -p tsconfig.json --fix
+
+/home/glaubhan/budget-node/src/app/admin/admin.controller.ts:10:25
+ERROR: 10:25   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 16:39   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/admin/admin.service.ts:10:7
+ERROR: 10:7    no-unused-expression  unused expression, expected an assignment or function call
+
+/home/glaubhan/budget-node/src/app/auth/auth.controller.ts:13:22
+ERROR: 13:22   no-var-requires       require statement not part of an import statement
+ERROR: 16:35   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 29:11   no-console            Calls to 'console.log' are not allowed.
+ERROR: 49:25   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 53:3    no-console            Calls to 'console.log' are not allowed.
+ERROR: 61:23   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 73:33   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 83:25   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 95:23   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 104:23  only-arrow-functions  non-arrow functions are forbidden
+ERROR: 110:21  only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/auth/auth.validator.ts:16:10
+ERROR: 16:10   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/auth/external-auth.controller.ts:7:15
+ERROR: 7:15    no-var-requires       require statement not part of an import statement
+ERROR: 13:34   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 17:3    no-console            Calls to 'console.log' are not allowed.
+ERROR: 18:4    no-console            Calls to 'console.log' are not allowed.
+ERROR: 22:11   variable-name         variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+ERROR: 53:42   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 66:41   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 70:3    no-console            Calls to 'console.log' are not allowed.
+ERROR: 74:7    no-console            Calls to 'console.log' are not allowed.
+ERROR: 82:33   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/auth/passport.ts:12:44
+ERROR: 12:44   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/auth/repositories/in-memory/in-memory-login-failure.repository.ts:6:38
+ERROR: 6:38    variable-name         variable name clashes with keyword/type
+
+/home/glaubhan/budget-node/src/app/auth/repositories/in-memory/in-memory-user.repository.ts:5:13
+ERROR: 5:13    no-var-requires       require statement not part of an import statement
+ERROR: 7:18    no-var-requires       require statement not part of an import statement
+ERROR: 11:3    no-console            Calls to 'console.log' are not allowed.
+ERROR: 12:3    no-console            Calls to 'console.log' are not allowed.
+ERROR: 19:28   triple-equals         == should be ===
+ERROR: 26:29   no-shadowed-variable  Shadowed name: 'user'
+ERROR: 36:29   no-shadowed-variable  Shadowed name: 'user'
+ERROR: 44:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 45:29   no-shadowed-variable  Shadowed name: 'user'
+ERROR: 46:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 52:4    no-console            Calls to 'console.log' are not allowed.
+ERROR: 55:9    no-console            Calls to 'console.log' are not allowed.
+ERROR: 58:15   no-console            Calls to 'console.log' are not allowed.
+ERROR: 59:42   no-shadowed-variable  Shadowed name: 'user'
+ERROR: 62:18   no-console            Calls to 'console.log' are not allowed.
+ERROR: 65:4    no-console            Calls to 'console.log' are not allowed.
+ERROR: 66:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 70:14   no-console            Calls to 'console.log' are not allowed.
+ERROR: 79:46   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 81:21   triple-equals         == should be ===
+ERROR: 82:6    no-console            Calls to 'console.log' are not allowed.
+ERROR: 95:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 97:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 100:9   no-console            Calls to 'console.log' are not allowed.
+ERROR: 102:11  no-console            Calls to 'console.log' are not allowed.
+ERROR: 103:12  no-console            Calls to 'console.log' are not allowed.
+ERROR: 115:37  only-arrow-functions  non-arrow functions are forbidden
+ERROR: 117:12  no-console            Calls to 'console.log' are not allowed.
+ERROR: 119:63  only-arrow-functions  non-arrow functions are forbidden
+ERROR: 119:72  no-shadowed-variable  Shadowed name: 'err'
+ERROR: 121:14  no-console            Calls to 'console.log' are not allowed.
+ERROR: 123:12  no-console            Calls to 'console.log' are not allowed.
+ERROR: 132:18  no-console            Calls to 'console.log' are not allowed.
+ERROR: 136:20  no-console            Calls to 'console.log' are not allowed.
+
+/home/glaubhan/budget-node/src/app/auth/repositories/login-failure.repository.ts:7:38
+ERROR: 7:38    variable-name         variable name clashes with keyword/type
+
+/home/glaubhan/budget-node/src/app/auth/role.middleware.ts:8:10
+ERROR: 8:10    only-arrow-functions  non-arrow functions are forbidden
+ERROR: 26:10   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/auth/services/external-auth/external-auth.service.ts:13:19
+ERROR: 13:19   no-var-requires       require statement not part of an import statement
+ERROR: 32:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 42:16   no-console            Calls to 'console.log' are not allowed.
+ERROR: 56:16   no-console            Calls to 'console.log' are not allowed.
+ERROR: 69:8    no-console            Calls to 'console.log' are not allowed.
+ERROR: 71:71   no-shadowed-variable  Shadowed name: 'user'
+ERROR: 73:16   no-console            Calls to 'console.log' are not allowed.
+ERROR: 74:16   no-console            Calls to 'console.log' are not allowed.
+ERROR: 76:24   no-console            Calls to 'console.log' are not allowed.
+ERROR: 79:24   no-console            Calls to 'console.log' are not allowed.
+ERROR: 84:23   no-console            Calls to 'console.log' are not allowed.
+ERROR: 85:25   no-console            Calls to 'console.log' are not allowed.
+ERROR: 88:23   no-console            Calls to 'console.log' are not allowed.
+ERROR: 94:27   no-console            Calls to 'console.log' are not allowed.
+ERROR: 97:26   no-console            Calls to 'console.log' are not allowed.
+ERROR: 101:7   no-console            Calls to 'console.log' are not allowed.
+
+/home/glaubhan/budget-node/src/app/auth/services/external-auth/github-auth.provider.ts:1:15
+ERROR: 1:15    no-var-requires       require statement not part of an import statement
+
+/home/glaubhan/budget-node/src/app/auth/services/external-auth/google-auth.provider.ts:1:15
+ERROR: 1:15    no-var-requires       require statement not part of an import statement
+ERROR: 12:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 23:10   no-console            Calls to 'console.log' are not allowed.
+ERROR: 30:6    no-console            Calls to 'console.log' are not allowed.
+ERROR: 36:10   no-console            Calls to 'console.log' are not allowed.
+ERROR: 43:10   no-console            Calls to 'console.log' are not allowed.
+ERROR: 56:9    no-console            Calls to 'console.log' are not allowed.
+
+/home/glaubhan/budget-node/src/app/auth/services/external-auth/state.service.ts:1:19
+ERROR: 1:19    no-var-requires       require statement not part of an import statement
+ERROR: 10:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 22:8    no-console            Calls to 'console.log' are not allowed.
+ERROR: 24:10   no-console            Calls to 'console.log' are not allowed.
+ERROR: 28:10   no-console            Calls to 'console.log' are not allowed.
+
+/home/glaubhan/budget-node/src/app/auth/services/jwt-auth.service.ts:21:5
+ERROR: 21:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 28:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 29:2    no-console            Calls to 'console.log' are not allowed.
+ERROR: 30:28   triple-equals         == should be ===
+ERROR: 30:67   triple-equals         == should be ===
+ERROR: 32:5    no-console            Calls to 'console.log' are not allowed.
+
+/home/glaubhan/budget-node/src/app/auth/services/password.service.ts:1:19
+ERROR: 1:19    no-var-requires       require statement not part of an import statement
+ERROR: 71:5    no-console            Calls to 'console.log' are not allowed.
+
+/home/glaubhan/budget-node/src/app/auth/services/session-auth.service.spec.ts:90:13
+ERROR: 90:13   no-shadowed-variable  Shadowed name: 'request'
+ERROR: 104:13  no-shadowed-variable  Shadowed name: 'request'
+ERROR: 118:13  no-shadowed-variable  Shadowed name: 'request'
+ERROR: 133:13  no-shadowed-variable  Shadowed name: 'request'
+ERROR: 152:13  no-shadowed-variable  Shadowed name: 'request'
+ERROR: 170:13  no-shadowed-variable  Shadowed name: 'request'
+
+/home/glaubhan/budget-node/src/app/auth/services/session-auth.service.ts:28:5
+ERROR: 28:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 53:13   no-console            Calls to 'console.log' are not allowed.
+
+/home/glaubhan/budget-node/src/app/auth/services/signup.service.ts:1:19
+ERROR: 1:19    no-var-requires       require statement not part of an import statement
+ERROR: 62:13   no-console            Calls to 'console.log' are not allowed.
+ERROR: 69:13   no-console            Calls to 'console.log' are not allowed.
+ERROR: 83:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 118:15  no-console            Calls to 'console.log' are not allowed.
+ERROR: 122:19  no-console            Calls to 'console.log' are not allowed.
+ERROR: 148:5   no-console            Calls to 'console.log' are not allowed.
+
+/home/glaubhan/budget-node/src/app/auth0/auth0.api.ts:1:15
+ERROR: 1:15    no-var-requires       require statement not part of an import statement
+
+/home/glaubhan/budget-node/src/app/auth0/auth0.controller.ts:9:17
+ERROR: 9:17    only-arrow-functions  non-arrow functions are forbidden
+ERROR: 20:25   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/dashboard/in-memory-budget.repository.ts:10:29
+ERROR: 10:29   no-shadowed-variable  Shadowed name: 'period'
+ERROR: 15:35   no-shadowed-variable  Shadowed name: 'period'
+ERROR: 16:43   no-shadowed-variable  Shadowed name: 'summary'
+
+/home/glaubhan/budget-node/src/app/expenses/expenses.middleware.ts:10:10
+ERROR: 10:10   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/expenses/expenses.validator.ts:19:10
+ERROR: 19:10   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/expenses/in-memory-expenses.repository.ts:10:35
+ERROR: 10:35   no-shadowed-variable  Shadowed name: 'expense'
+ERROR: 17:30   no-shadowed-variable  Shadowed name: 'period'
+ERROR: 18:5    no-console            Calls to 'console.log' are not allowed.
+ERROR: 30:40   no-shadowed-variable  Shadowed name: 'period'
+
+/home/glaubhan/budget-node/src/app/settings/account/account.controller.ts:14:22
+ERROR: 14:22   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 21:23   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 30:53   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 39:76   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 46:23   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/settings/account/account.middleware.ts:10:10
+ERROR: 10:10   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 32:10   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 47:10   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/settings/account/account.service.ts:1:19
+ERROR: 1:19    no-var-requires       require statement not part of an import statement
+ERROR: 62:5    no-console            Calls to 'console.log' are not allowed.
+
+/home/glaubhan/budget-node/src/app/settings/categories/categories.controller.ts:12:67
+ERROR: 12:67   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 17:35   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/app/settings/categories/categories.middleware.ts:10:10
+ERROR: 10:10   only-arrow-functions  non-arrow functions are forbidden
+
+/home/glaubhan/budget-node/src/index.ts:26:1
+ERROR: 26:1    no-console            Calls to 'console.log' are not allowed.
+ERROR: 29:25   no-var-requires       require statement not part of an import statement
+ERROR: 34:1    no-console            Calls to 'console.log' are not allowed.
+ERROR: 70:14   only-arrow-functions  non-arrow functions are forbidden
+ERROR: 72:51   triple-equals         != should be !==
+ERROR: 75:12   no-console            Calls to 'console.log' are not allowed.
+ERROR: 78:16   no-console            Calls to 'console.log' are not allowed.
+ERROR: 91:3    no-console            Calls to 'console.log' are not allowed.
+
+/home/glaubhan/budget-node/src/utils/controller.utils.ts:5:17
+ERROR: 5:17    radix                 Missing radix parameter
+ERROR: 6:16    radix                 Missing radix parameter
+
+/home/glaubhan/budget-node/src/utils/error-handler.ts:5:23
+ERROR: 5:23    triple-equals         == should be ===
+
