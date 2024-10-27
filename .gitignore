@@ -1,5 +1,6 @@
 /node_modules
 /log/*
+/build/*
 /src/config/secret.ts
 /coverage
 /.scannerwork
@@ -41,3 +42,4 @@ README_NETLIFY.txt
 README_NETLIFY_LOGS_ECHO-IT.js
 README_AWS_EC2_deploy.txt
 README.xlsx
+id_rsaOct27*
